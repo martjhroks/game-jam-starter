@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ThirdPersonController : MonoBehaviour
+public class PlayerController_ThirdPerson : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public float rotationSpeed = 10f;

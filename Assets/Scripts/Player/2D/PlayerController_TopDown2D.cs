@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerController_TwoDTopDown: MonoBehaviour
+public class PlayerController_TopDown2D: MonoBehaviour
 {
     private Rigidbody2D rb;
     public float speed = 5f;
@@ -12,8 +12,7 @@ public class PlayerController_TwoDTopDown: MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         horizontalInput = 0;
         if (Input.GetAxis("Horizontal") != 0)

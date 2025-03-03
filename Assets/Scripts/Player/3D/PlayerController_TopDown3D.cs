@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [RequireComponent (typeof(CharacterController))]
-public class PlayerController : MonoBehaviour
+public class PlayerController_TopDown3D : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public float rotationSpeed = 10f;
